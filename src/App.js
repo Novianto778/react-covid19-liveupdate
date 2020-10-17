@@ -1,13 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import { Header, Hero, Panel, Chart } from "./components/index";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
 
-function App() {
-  return (
-    <div>
-      <h1>Hello From App</h1>
-    </div>
-  );
+export default class App extends Component {
+  render() {
+    return (
+      <>
+        <Header />
+        <Hero />
+        <Panel />
+        <Chart />
+      </>
+    );
+  }
 }
-
-export default App;

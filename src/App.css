@@ -3,3 +3,90 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --main-bg-color: #262c7c;
+  --main-font-color: #bec1e0;
+}
+
+.container {
+  padding: 0 40px;
+}
+
+.navbar-custom {
+  background-color: var(--main-bg-color);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+
+.navbar-brand {
+  color: #fff !important;
+}
+
+.nav-link {
+  color: var(--main-font-color) !important;
+  margin-left: 15px;
+}
+
+.nav-item.active .nav-link {
+  color: #eb0065 !important;
+}
+
+.navbar-toggler {
+  background-color: #fff !important;
+}
+
+/* hero section */
+.hero {
+  background: var(--main-bg-color);
+  padding: 75px 0 120px 0;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.hero p {
+  font-size: 1rem;
+  color: var(--main-font-color);
+  margin-top: 2.2rem;
+  margin-bottom: 5rem;
+  max-width: 85%;
+  line-height: 1.45rem;
+}
+
+.hero button {
+  margin-right: 1rem;
+  font-size: 0.725rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+}
+
+.hero .col-6 img {
+  max-width: 440px;
+}
+
+.paper {
+  margin-top: -3.75rem !important;
+  margin-bottom: 8rem !important;
+}
+
+.paper svg {
+  font-size: 2.75rem;
+  margin-right: 0.325rem;
+}
+
+.paper h6 {
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.paper .grid-item {
+  padding: 0 !important;
+}
+
+.MuiGrid-container {
+  margin: 0;
+}
+

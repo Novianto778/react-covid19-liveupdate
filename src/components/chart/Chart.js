@@ -2,8 +2,8 @@ import React from 'react'
 
 const Chart = () => {
   return (
-    <div>
-      
+    <div className="justify-content-center d-flex">
+      <h1>Hello</h1>
     </div>
   )
 }
