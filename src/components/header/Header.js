@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../../img/logo.png";
 
 const Header = () => {
   return (
@@ -7,7 +6,7 @@ const Header = () => {
       <nav className="navbar navbar-expand-lg navbar-light navbar-custom sticky-top">
         <div className="container">
           <a className="navbar-brand" href="#">
-            <img src={logo} alt="covid logo" width="54" height="54" />
+            <img src={window.location.origin + '/img/logo.png'} alt="covid logo" width="54" height="54" />
             <span className="ml-2">COVID-19</span>
           </a>
           <button

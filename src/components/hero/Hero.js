@@ -2,7 +2,6 @@ import React from "react";
 import { Button, ButtonGroup } from "@material-ui/core";
 import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
 import NextIcon from "@material-ui/icons/NavigateNext";
-import HeroPic from "../../img/hero.png";
 
 const theme = createMuiTheme({
   palette: {
@@ -21,7 +20,7 @@ const Hero = () => {
       <div className="hero">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-6 col-lg">
+            <div className="col-md">
               <h1>COVID-19 LIVE TRACKER</h1>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
@@ -47,9 +46,9 @@ const Hero = () => {
                 Find A Doctor
               </Button>
             </div>
-            <div className="col-6 col-lg">
+            <div className="col-md hero-col">
               <img
-                src={HeroPic}
+                src={window.location.origin + '/img/hero.png'}
                 alt="Covid Virus Picture"
                 className="img-fluid ml-auto d-block"
               />

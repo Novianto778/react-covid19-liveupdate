@@ -69,7 +69,7 @@
 
 .paper {
   margin-top: -3.75rem !important;
-  margin-bottom: 8rem !important;
+  margin-bottom: 5rem !important;
 }
 
 .paper svg {
@@ -90,3 +90,54 @@
   margin: 0;
 }
 
+.chart {
+  max-width: 80%;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+}
+
+.info-item-section {
+  margin: 0 auto !important;
+  width: 80% !important;
+}
+
+.info-item {
+  padding: 0.75rem 1rem;
+  color: #6468A1;
+}
+
+.info-item .title {
+  font-size: 1.25rem;
+  color: #262C7C;
+  font-weight: bold;
+}
+
+.section-title {
+  margin-top: 4.5rem;
+}
+
+.section-title h4 {
+  font-size: 1.5rem;
+  color: #262C7C;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 1280px){
+  .info-paper {
+    height: 20rem;
+  }
+}
+
+@media (max-width: 800px){
+  .hero-col {
+    display: none;
+  }
+
+  .hero {
+    text-align: center;
+  }
+
+  .hero p {
+    margin: 1.5rem auto 2rem auto;
+  }
+}

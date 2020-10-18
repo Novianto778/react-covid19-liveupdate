@@ -16,10 +16,9 @@ const Panel = () => {
         justify="space-evenly"
         alignItems="center"
         spacing={8}
-        style={{margin: 0, padding: 0}}
-
+        style={{ margin: 0, padding: 0 }}
       >
-        <Grid item xs={6} md={3}>
+        <Grid item xs={12} sm={6} md={3}>
           <Grid container direction="row" alignItems="center">
             <Grid item>
               <GlobalIcon />
@@ -36,7 +35,7 @@ const Panel = () => {
             </Grid>
           </Grid>
         </Grid>
-        <Grid item xs={6} md={3}>
+        <Grid item xs={12} sm={6} md={3}>
           <Grid container direction="row" alignItems="center">
             <Grid item>
               <GlobalIcon />
@@ -53,7 +52,7 @@ const Panel = () => {
             </Grid>
           </Grid>
         </Grid>
-        <Grid item xs={6} md={3}>
+        <Grid item xs={12} sm={6} md={3}>
           <Grid container direction="row" alignItems="center">
             <Grid item>
               <GlobalIcon />
@@ -70,7 +69,7 @@ const Panel = () => {
             </Grid>
           </Grid>
         </Grid>
-        <Grid item xs={6} md={3}>
+        <Grid item xs={12} sm={6} md={3}>
           <Grid container direction="row" alignItems="center">
             <Grid item>
               <GlobalIcon />
