@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, ButtonGroup } from "@material-ui/core";
+import { Button } from "@material-ui/core";
 import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
 import NextIcon from "@material-ui/icons/NavigateNext";
 
@@ -49,7 +49,7 @@ const Hero = () => {
             <div className="col-md hero-col">
               <img
                 src={window.location.origin + '/img/hero.png'}
-                alt="Covid Virus Picture"
+                alt="Covid Virus"
                 className="img-fluid ml-auto d-block"
               />
             </div>

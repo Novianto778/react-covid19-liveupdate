@@ -1,6 +1,5 @@
 import React from "react";
 import InfoItem from "../infoitem/InfoItem";
-import { data } from "../../data";
 import { Grid, Typography } from "@material-ui/core";
 
 const InfoContainer = ({ data }) => {

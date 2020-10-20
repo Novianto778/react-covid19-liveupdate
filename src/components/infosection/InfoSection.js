@@ -7,9 +7,9 @@ import InfoContainer from "../infocontainer/InfoContainer";
 const InfoSection = () => {
   return (
     <>
-      {data.map(d => {
+      {data.map((d, index) => {
         return (
-          <InfoContainer data={d} />
+          <InfoContainer data={d} key={index} />
         )
       })}
     </>

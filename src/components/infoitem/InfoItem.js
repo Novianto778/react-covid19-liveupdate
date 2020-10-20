@@ -13,7 +13,7 @@ const InfoItem = ({ card }) => {
           className="info-item"
         >
           <Grid item>
-            <img src={card.imgUrl} width="60" />
+            <img src={card.imgUrl} width="60" alt="card" />
           </Grid>
           <Grid item>
             <Typography className="title">{card.title}</Typography>

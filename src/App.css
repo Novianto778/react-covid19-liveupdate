@@ -5,7 +5,7 @@
 }
 
 :root {
-  --main-bg-color: #262c7c;
+  --main-dark-blue-color: #262c7c;
   --main-font-color: #bec1e0;
 }
 
@@ -14,10 +14,9 @@
 }
 
 .navbar-custom {
-  background-color: var(--main-bg-color);
+  background-color: var(--main-dark-blue-color);
   border-bottom: 1px solid rgba(255, 255, 255, 0.14);
 }
-
 
 .navbar-brand {
   color: #fff !important;
@@ -38,7 +37,7 @@
 
 /* hero section */
 .hero {
-  background: var(--main-bg-color);
+  background: var(--main-dark-blue-color);
   padding: 75px 0 120px 0;
 }
 
@@ -103,12 +102,12 @@
 
 .info-item {
   padding: 0.75rem 1rem;
-  color: #6468A1;
+  color: #6468a1;
 }
 
 .info-item .title {
   font-size: 1.25rem;
-  color: #262C7C;
+  color: var(--main-dark-blue-color);
   font-weight: bold;
 }
 
@@ -118,17 +117,52 @@
 
 .section-title h4 {
   font-size: 1.5rem;
-  color: #262C7C;
+  color: var(--main-dark-blue-color);
   margin-bottom: 2rem;
 }
 
-@media (min-width: 1280px){
+.faq-title {
+  font-size: 1.75rem;
+  color: var(--main-dark-blue-color);
+  margin-top: 4.5rem;
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+.faq .faq-side {
+  padding-right: 2rem;
+}
+
+.faq-side-bar {
+  padding: 0.75rem 1rem;
+  font-size: 1.125rem;
+  color: var(--main-dark-blue-color) !important;
+  cursor: pointer;
+}
+
+.faq-side-bar svg {
+  position: absolute;
+  right: 2.75rem;
+  pointer-events: none;
+}
+
+.faq-side-bar.active {
+  border: 2px solid #000;
+}
+
+@media (min-width: 1280px) {
   .info-paper {
     height: 20rem;
   }
 }
 
-@media (max-width: 800px){
+@media (max-width: 1200px) {
+  .hero p {
+    margin: 1.5rem 0 2rem 0;
+  }
+}
+
+@media (max-width: 840px) {
   .hero-col {
     display: none;
   }
