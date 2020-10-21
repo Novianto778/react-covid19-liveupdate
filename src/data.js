@@ -177,3 +177,62 @@ There are many types of human coronaviruses including some that commonly cause m
     ],
   },
 ];
+
+export const blog = [
+  {
+    title: "Use of Facemasks During Pandemic",
+    link: "https://www.thelancet.com/journals/lancet/article/PIIS2213-2600(20)30352-0/fulltext",
+    imgUrl: "/img/facemask.jpg",
+    text: "Systematic reviews of facemask use suggest relative risk (RR) reductions for infection ranging from 6–80%, including for betacoronavirus infection (eg, COVID-19, SARS, MERS). ",
+  },
+  {
+    title: "Long Term COVID-19 Effect",
+    link: "https://www.id-hub.com/2020/10/19/long-term-effects-covid-19-infection/",
+    imgUrl: "/img/effect.jpg",
+    text: "The review details that similar findings are being reported by a number of small surveys, demonstrating that a range of recurring symptoms are experienced by both post- and non-hospitalized patients.",
+  },
+  {
+    title: "False-Positive COVID-19 Results",
+    link: "https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(20)30453-7/fulltext",
+    imgUrl: "/img/false.jpg",
+    text: "Globally, most effort so far has been invested in turnaround times and low test sensitivity (ie, false negatives); one systematic review reported false-negative rates of between 2% and 33% in repeat sample testing.",
+  },
+  {
+    title: "False-Positive COVID-19 Results",
+    link: "https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(20)30453-7/fulltext",
+    imgUrl: "/img/false.jpg",
+    text: "Globally, most effort so far has been invested in turnaround times and low test sensitivity (ie, false negatives); one systematic review reported false-negative rates of between 2% and 33% in repeat sample testing.",
+  },
+  {
+    title: "Use of Facemasks During Pandemic",
+    link: "https://www.thelancet.com/journals/lancet/article/PIIS2213-2600(20)30352-0/fulltext",
+    imgUrl: "/img/facemask.jpg",
+    text: "Systematic reviews of facemask use suggest relative risk (RR) reductions for infection ranging from 6–80%, including for betacoronavirus infection (eg, COVID-19, SARS, MERS). ",
+  },
+  {
+    title: "Long Term COVID-19 Effect",
+    link: "https://www.id-hub.com/2020/10/19/long-term-effects-covid-19-infection/",
+    imgUrl: "/img/effect.jpg",
+    text: "The review details that similar findings are being reported by a number of small surveys, demonstrating that a range of recurring symptoms are experienced by both post- and non-hospitalized patients.",
+  },
+  
+  {
+    title: "Use of Facemasks During Pandemic",
+    link: "https://www.thelancet.com/journals/lancet/article/PIIS2213-2600(20)30352-0/fulltext",
+    imgUrl: "/img/facemask.jpg",
+    text: "Systematic reviews of facemask use suggest relative risk (RR) reductions for infection ranging from 6–80%, including for betacoronavirus infection (eg, COVID-19, SARS, MERS). ",
+  },
+  {
+    title: "Long Term COVID-19 Effect",
+    link: "https://www.id-hub.com/2020/10/19/long-term-effects-covid-19-infection/",
+    imgUrl: "/img/effect.jpg",
+    text: "The review details that similar findings are being reported by a number of small surveys, demonstrating that a range of recurring symptoms are experienced by both post- and non-hospitalized patients.",
+  },
+  {
+    title: "False-Positive COVID-19 Results",
+    link: "https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(20)30453-7/fulltext",
+    imgUrl: "/img/false.jpg",
+    text: "Globally, most effort so far has been invested in turnaround times and low test sensitivity (ie, false negatives); one systematic review reported false-negative rates of between 2% and 33% in repeat sample testing.",
+  },
+  
+]
