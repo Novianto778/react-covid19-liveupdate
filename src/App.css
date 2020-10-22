@@ -121,7 +121,8 @@
   margin-bottom: 2rem;
 }
 
-.faq-title, .blog-title {
+.faq-title,
+.blog-title {
   font-size: 1.75rem;
   color: var(--main-dark-blue-color);
   margin-top: 4.5rem;
@@ -173,6 +174,31 @@
   padding: 0.5rem 1rem;
 }
 
+.blog .blog-item {
+  margin: 0 auto !important;
+}
+
+.footer {
+  margin-top: 3rem;
+  background-color: var(--main-dark-blue-color);
+  padding: 4rem 0 2rem 0;
+  color: var(--main-font-color);
+}
+
+.footer svg {
+  font-size: 2rem;
+}
+
+.footer .copyright {
+  text-align: center;
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
+}
+.footer-item {
+  margin-top: 2rem !important;
+}
+
 .btn-loadmore {
   margin: 2rem auto !important;
 }
@@ -186,6 +212,14 @@
 @media (max-width: 1200px) {
   .hero p {
     margin: 1.5rem 0 2rem 0;
+  }
+
+  .faq-side {
+    display: none;
+  }
+
+  .faq-accordion {
+    padding: 0;
   }
 }
 

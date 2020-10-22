@@ -23,7 +23,7 @@ const BlogItem = ({ data: { title, text, imgUrl, link }, theme }) => {
 
   return (
     <ThemeProvider theme={theme}>
-      <Grid item>
+      <Grid item xs={12} lg={4} md={12} className="blog-item">
         <Card className={classes.root}>
           <CardMedia className={classes.media} image={imgUrl} title={title} />
           <CardContent>

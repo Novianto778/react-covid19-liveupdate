@@ -21,7 +21,7 @@ const Faq = () => {
       <h1 className="faq-title">FAQ</h1>
       <div className="container">
         <div className="row">
-          <div className="col-4">
+          <div className="col-4 faq-side">
             <Grid container direction="column" spacing={3}>
               {faq.map((f, index) => {
                 return (
@@ -40,7 +40,7 @@ const Faq = () => {
               })}
             </Grid>
           </div>
-          <div className="col-8 faq-accordion">
+          <div className="col-lg-8 col-md-12 faq-accordion">
             <Grid container direction="column" spacing={2}>
               {activeAccordion.map((f, index) => {
                 return (
