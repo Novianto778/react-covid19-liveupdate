@@ -24,7 +24,7 @@ const Footer = () => {
                 </Grid>
               </Grid>
               <Grid item>
-                <Typography variant="p">
+                <Typography>
                   DesignMamba an online marketplace built to cope with promising
                   future
                 </Typography>
@@ -38,19 +38,19 @@ const Footer = () => {
                 <h6>USEFUL LINKS</h6>
               </Grid>
               <Grid item>
-                <Typography variant="p">Why?</Typography>
+                <Typography>Why?</Typography>
               </Grid>
               <Grid item>
-                <Typography variant="p">About</Typography>
+                <Typography>About</Typography>
               </Grid>
               <Grid item>
-                <Typography variant="p">Carrers</Typography>
+                <Typography>Carrers</Typography>
               </Grid>
               <Grid item>
-                <Typography variant="p">Blog</Typography>
+                <Typography>Blog</Typography>
               </Grid>
               <Grid item>
-                <Typography variant="p">Contract</Typography>
+                <Typography>Contract</Typography>
               </Grid>
             </Grid>
           </Grid>
@@ -61,13 +61,13 @@ const Footer = () => {
                 <Typography>.</Typography>
               </Grid>
               <Grid item>
-                <Typography variant="p">T&C</Typography>
+                <Typography>T&C</Typography>
               </Grid>
               <Grid item>
-                <Typography variant="p">FAQ</Typography>
+                <Typography>FAQ</Typography>
               </Grid>
               <Grid item>
-                <Typography variant="p">Privacy Policy</Typography>
+                <Typography>Privacy Policy</Typography>
               </Grid>
             </Grid>
           </Grid>
@@ -78,14 +78,14 @@ const Footer = () => {
                 <h6>CONTACT US</h6>
               </Grid>
               <Grid item>
-                <Typography variant="p">Tel: +8801765668561</Typography>
+                <Typography>Tel: +8801765668561</Typography>
               </Grid>
               <Grid item>
-                <Typography variant="p">support@designmamba.com</Typography>
+                <Typography>support@designmamba.com</Typography>
               </Grid>
               <Grid item>
                 <h6>Location</h6>
-                <Typography variant="p">Lalmatia, Dhaka-1207</Typography>
+                <Typography>Lalmatia, Dhaka-1207</Typography>
               </Grid>
             </Grid>
           </Grid>
@@ -111,7 +111,7 @@ const Footer = () => {
         </Grid>
         
       </div>
-      <Typography variant="p" className="copyright d-block">© designmamba, All Rights Reserved</Typography>
+      <Typography className="copyright d-block">© designmamba & Novianto, All Rights Reserved</Typography>
     </div>
   );
 };
