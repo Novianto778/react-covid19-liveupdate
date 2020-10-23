@@ -4,13 +4,17 @@
   box-sizing: border-box;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 :root {
   --main-dark-blue-color: #262c7c;
   --main-font-color: #bec1e0;
 }
 
 body {
-  font-family: "Montserrat", sans-serif ;
+  font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
 }
 
@@ -70,7 +74,6 @@ body {
 .hero .col-6 img {
   max-width: 440px;
 }
-
 
 .paper {
   margin-top: -3.75rem !important;
@@ -151,7 +154,6 @@ body {
   cursor: pointer;
 }
 
-
 .faq-side-bar svg {
   position: absolute;
   right: 2.75rem;
@@ -184,7 +186,6 @@ body {
 .read-more {
   padding: 0.5rem 1rem;
 }
-
 
 .footer {
   margin-top: 3rem;
@@ -243,10 +244,9 @@ body {
   .hero p {
     margin: 1.5rem auto 2rem auto;
   }
-
 }
 
-@media (max-width: 560px){
+@media (max-width: 560px) {
   .chart {
     display: none;
   }
