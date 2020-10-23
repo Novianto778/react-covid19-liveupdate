@@ -42,7 +42,7 @@ const Blog = () => {
         {loaded === blog.length ? (
           <Button
             variant="contained"
-            color="primary"
+            color="secondary"
             className="btn-loadmore d-block"
             onClick={handleLess}
           >

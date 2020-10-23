@@ -3,19 +3,19 @@ export const data = [
     title: "How coronavirus spread",
     card: [
       {
-        imgUrl: "/img/Fever.png",
+        imgUrl: "/img/1.png",
         title: "Person-to-person spread",
         text:
           "The coronavirus is thought to spread mainly from person to person. This can happen between people who are in close contact with one another.",
       },
       {
-        imgUrl: "/img/Cough.png",
+        imgUrl: "/img/2.png",
         title: "Person coughs or sneezes",
         text:
           "The coronavirus is thought to spread mainly from person to person. This can happen between people who are in close contact with one another.",
       },
       {
-        imgUrl: "/img/Cough.png",
+        imgUrl: "/img/3.png",
         title: "Sore Throat",
         text:
           "A sore throat can make it painful to eat and even talk. It brings scratchiness and irritation to the throat that can become worse when swallowing.",
@@ -26,19 +26,19 @@ export const data = [
     title: "Symptoms of coronavirus",
     card: [
       {
-        imgUrl: "/img/Fever.png",
+        imgUrl: "/img/1.png",
         title: "Fever",
         text:
           "High Fever – this means you feel hot to touch on your chest or back (you do not need to measure your temperature). It is a common sign and also may appear in 2-10 days if you affected..",
       },
       {
-        imgUrl: "/img/Cough.png",
+        imgUrl: "/img/2.png",
         title: "Dry Cough",
         text:
           "Continuous cough – this means coughing a lot for more than an hour, or 3 or more coughing episodes in 24 hours (if you usually have a cough, it may be worse than usual).",
       },
       {
-        imgUrl: "/img/Cough.png",
+        imgUrl: "/img/3.png",
         title: "Sore Throat",
         text:
           "A sore throat can make it painful to eat and even talk. It brings scratchiness and irritation to the throat that can become worse when swallowing.",
@@ -49,19 +49,19 @@ export const data = [
     title: "Symptoms of coronavirus",
     card: [
       {
-        imgUrl: "/img/Fever.png",
+        imgUrl: "/img/1.png",
         title: "Person-to-person spread",
         text:
           "The coronavirus is thought to spread mainly from person to person. This can happen between people who are in close contact with one another.",
       },
       {
-        imgUrl: "/img/Cough.png",
+        imgUrl: "/img/2.png",
         title: "Person coughs or sneezes",
         text:
           "The coronavirus is thought to spread mainly from person to person. This can happen between people who are in close contact with one another.",
       },
       {
-        imgUrl: "/img/Cough.png",
+        imgUrl: "/img/3.png",
         title: "Sore Throat",
         text:
           "A sore throat can make it painful to eat and even talk. It brings scratchiness and irritation to the throat that can become worse when swallowing.",
@@ -171,7 +171,7 @@ There are many types of human coronaviruses including some that commonly cause m
       },
       {
         question:
-          "Can someone test negative and later test positive on a viral test for COVID-19?",
+          "Can someone test negative and later test positive on a viral test?",
         answer: `Yes, it is possible. You may test negative if the sample was collected early in your infection and test positive later during this illness. You could also be exposed to COVID-19 after the test and get infected then. Even if you test negative, you still should take steps to protect yourself and others.`,
       },
     ],
@@ -183,7 +183,7 @@ export const blog = [
     title: "Use of Facemasks During Pandemic",
     link: "https://www.thelancet.com/journals/lancet/article/PIIS2213-2600(20)30352-0/fulltext",
     imgUrl: "/img/facemask.jpg",
-    text: "Systematic reviews of facemask use suggest relative risk (RR) reductions for infection ranging from 6–80%, including for betacoronavirus infection (eg, COVID-19, SARS, MERS). ",
+    text: "Systematic reviews of facemask use during pandemic suggest relative risk (RR) reductions for infection ranging from 6–80%, including for betacoronavirus infection (eg, COVID-19, SARS, MERS). ",
   },
   {
     title: "Long Term COVID-19 Effect",
@@ -207,7 +207,7 @@ export const blog = [
     title: "Use of Facemasks During Pandemic",
     link: "https://www.thelancet.com/journals/lancet/article/PIIS2213-2600(20)30352-0/fulltext",
     imgUrl: "/img/facemask.jpg",
-    text: "Systematic reviews of facemask use suggest relative risk (RR) reductions for infection ranging from 6–80%, including for betacoronavirus infection (eg, COVID-19, SARS, MERS). ",
+    text: "Systematic reviews of facemask use during pandemic suggest relative risk (RR) reductions for infection ranging from 6–80%, including for betacoronavirus infection (eg, COVID-19, SARS, MERS). ",
   },
   {
     title: "Long Term COVID-19 Effect",
@@ -220,7 +220,7 @@ export const blog = [
     title: "Use of Facemasks During Pandemic",
     link: "https://www.thelancet.com/journals/lancet/article/PIIS2213-2600(20)30352-0/fulltext",
     imgUrl: "/img/facemask.jpg",
-    text: "Systematic reviews of facemask use suggest relative risk (RR) reductions for infection ranging from 6–80%, including for betacoronavirus infection (eg, COVID-19, SARS, MERS). ",
+    text: "Systematic reviews of facemask use during pandemic suggest relative risk (RR) reductions for infection ranging from 6–80%, including for betacoronavirus infection (eg, COVID-19, SARS, MERS). ",
   },
   {
     title: "Long Term COVID-19 Effect",

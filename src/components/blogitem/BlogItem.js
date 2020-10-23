@@ -11,10 +11,10 @@ import {  ThemeProvider } from "@material-ui/core/styles";
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 325,
+    maxWidth: "100%",
   },
   media: {
-    height: 140,
+    height: 160,
   },
 });
 
@@ -23,11 +23,11 @@ const BlogItem = ({ data: { title, text, imgUrl, link }, theme }) => {
 
   return (
     <ThemeProvider theme={theme}>
-      <Grid item xs={12} lg={4} md={12} className="blog-item">
-        <Card className={classes.root}>
+      <Grid item  lg={4} md={6} xs={12} className="blog-item">
+        <Card className={classes.root} xs={12}>
           <CardMedia className={classes.media} image={imgUrl} title={title} />
           <CardContent>
-            <Typography gutterBottom variant="h5" component="h2">
+            <Typography gutterBottom variant="body1" component="h2">
               {title}
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">

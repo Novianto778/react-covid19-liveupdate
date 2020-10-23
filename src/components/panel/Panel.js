@@ -9,6 +9,8 @@ import {
 } from "@material-ui/core";
 import CountUp from 'react-countup';
 import { countries } from "../../api";
+import RecoveredIcon from '@material-ui/icons/Favorite';
+import DeathsIcon from '@material-ui/icons/Warning';
 
 const Panel = ({ data: { confirmed, recovered, deaths }, handleCountryChange }) => {
   const [countriesData, setCountriesData] = useState([]);
@@ -30,9 +32,9 @@ const Panel = ({ data: { confirmed, recovered, deaths }, handleCountryChange }) 
   }
   return (
     <Paper
-      md={8}
-      xl={10}
-      style={{ background: "#fff", width: "70%", margin: "0 auto" }}
+      md={10}
+      lg={12}
+      style={{ background: "#fff", width: "85%", margin: "0 auto" }}
       className="paper"
     >
       <Grid
@@ -73,12 +75,18 @@ const Panel = ({ data: { confirmed, recovered, deaths }, handleCountryChange }) 
         <Grid item xs={12} sm={6} md={3}>
           <Grid container direction="row" alignItems="center">
             <Grid item>
-              <GlobalIcon />
+            <img
+                src={window.location.origin + '/img/confirmed.png'}
+                alt="Covid Virus"
+                className="img-fluid d-block"
+                width="50"
+                style={{marginRight: 5}}
+              />
             </Grid>
             <Grid item>
               <Grid container direction="column">
                 <Grid item>
-                  <Typography variant="caption">Confirmed</Typography>
+                  <Typography variant="h6">Confirmed</Typography>
                 </Grid>
                 <Grid item>
                   <Typography variant="h6"><CountUp end={confirmed.value} separator="," duration={2.5}/></Typography>
@@ -90,12 +98,12 @@ const Panel = ({ data: { confirmed, recovered, deaths }, handleCountryChange }) 
         <Grid item xs={12} sm={6} md={3}>
           <Grid container direction="row" alignItems="center">
             <Grid item>
-              <GlobalIcon />
+              <RecoveredIcon style={{color: "rgba(0,255,0,0.5)"}} />
             </Grid>
             <Grid item>
               <Grid container direction="column">
                 <Grid item>
-                  <Typography variant="caption">Recovered</Typography>
+                  <Typography variant="h6">Recovered</Typography>
                 </Grid>
                 <Grid item>
                   <Typography variant="h6"><CountUp end={recovered.value} separator="," duration={2.5}/></Typography>
@@ -107,12 +115,12 @@ const Panel = ({ data: { confirmed, recovered, deaths }, handleCountryChange }) 
         <Grid item xs={12} sm={6} md={3}>
           <Grid container direction="row" alignItems="center">
             <Grid item>
-              <GlobalIcon />
+              <DeathsIcon style={{color: "rgba(255,0,0,0.5)" }} />
             </Grid>
             <Grid item>
               <Grid container direction="column">
                 <Grid item>
-                  <Typography variant="caption">Deaths</Typography>
+                  <Typography variant="h6">Deaths</Typography>
                 </Grid>
                 <Grid item>
                   <Typography variant="h6"><CountUp end={deaths.value} separator="," duration={2.5}/></Typography>

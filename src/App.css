@@ -9,6 +9,10 @@
   --main-font-color: #bec1e0;
 }
 
+body {
+  font-family: "Montserrat", sans-serif ;
+}
+
 .container {
   padding: 0 40px;
 }
@@ -50,7 +54,7 @@
   font-size: 1rem;
   color: var(--main-font-color);
   margin-top: 2.2rem;
-  margin-bottom: 5rem;
+  margin-bottom: 3.25rem;
   max-width: 85%;
   line-height: 1.45rem;
 }
@@ -66,6 +70,7 @@
   max-width: 440px;
 }
 
+
 .paper {
   margin-top: -3.75rem !important;
   margin-bottom: 5rem !important;
@@ -78,7 +83,7 @@
 
 .paper h6 {
   font-size: 1.125rem;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .paper .grid-item {
@@ -112,7 +117,7 @@
 .info-item .title {
   font-size: 1.25rem;
   color: var(--main-dark-blue-color);
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .section-title {
@@ -145,6 +150,7 @@
   cursor: pointer;
 }
 
+
 .faq-side-bar svg {
   position: absolute;
   right: 2.75rem;
@@ -162,7 +168,7 @@
 .accordion-question {
   padding: 0.75rem 0 0.75rem 1.25rem;
   font-size: 1rem;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .accordion-question span {
@@ -239,4 +245,5 @@
   .hero p {
     margin: 1.5rem auto 2rem auto;
   }
+
 }

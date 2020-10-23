@@ -10,7 +10,7 @@ import {
   Footer,
 } from "./components/index";
 import "bootstrap/dist/css/bootstrap.min.css";
-import {fetchData, countries} from "./api";
+import {fetchData} from "./api";
 import "./App.css";
 
 export default class App extends Component {

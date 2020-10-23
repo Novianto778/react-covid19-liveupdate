@@ -23,14 +23,11 @@ const Hero = () => {
             <div className="col-md">
               <h1>COVID-19 LIVE TRACKER</h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
-                ad explicabo? In fugiat error placeat perferendis quasi? Nisi,
-                magni nobis expedita, esse, odit voluptates aliquid neque rerum
-                architecto natus atque?
+              The Coronavirus (COVID-19) was first reported in Wuhan, Hubei, China in December 2019, the outbreak was later recognized as a pandemic by the World Health Organization (WHO) on 11 March 2020.
               </p>
 
               <Button
-                style={{ border: "2px solid #eb0065" }}
+                style={{ border: "2px solid #eb0065", marginTop: 20 }}
                 variant="contained"
                 color="primary"
                 endIcon={<NextIcon />}
@@ -38,7 +35,7 @@ const Hero = () => {
                 How To Protect
               </Button>
               <Button
-                style={{ border: "2px solid #fff" }}
+                style={{ border: "2px solid #fff", marginTop: 20 }}
                 variant="outlined"
                 color="secondary"
                 endIcon={<NextIcon />}
@@ -51,6 +48,7 @@ const Hero = () => {
                 src={window.location.origin + '/img/hero.png'}
                 alt="Covid Virus"
                 className="img-fluid ml-auto d-block"
+                
               />
             </div>
           </div>
